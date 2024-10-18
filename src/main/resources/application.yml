@@ -1,0 +1,20 @@
+spring:
+
+  application:
+    name: spring-exception-handling
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/user
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Pa$$w0rd@123
+    
+  jpa:
+    show-sql: true
+    
+    hibernate:
+      ddl-auto: update
+      
+server:
+  port: 9092
+    
