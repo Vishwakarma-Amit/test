@@ -1,4 +1,4 @@
-package com.exception.controllerU;
+package com.exception.controller;
 
 import java.util.List;
 
