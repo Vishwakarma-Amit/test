@@ -11,7 +11,7 @@ pipeline {
         stage('Test') { 
             steps {
                 echo "Testing" 
-                java -jar ExceptionHandling-0.0.1-SNAPSHOT.jar
+                java -jar target/*.jar
             }
         }
         stage('Deploy') { 
